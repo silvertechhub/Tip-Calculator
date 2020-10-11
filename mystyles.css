@@ -1,0 +1,82 @@
+.page{
+    position: relative;
+
+}
+.page{
+    background: rgb(228,244,230);
+    background: linear-gradient(90deg, rgba(228,244,230,1) 0%, rgba(201,240,242,0.5830707282913166) 86%);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.app{
+    height: 100%;
+    width: 25%;
+    position: relative;
+    left: 40%;
+   
+   
+}
+.app:before{
+    border: 3px solid black;
+    border-radius: 3rem;
+    content: "";
+    background-image:url('currency.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+.each{
+    display: block;
+}
+
+
+.container{
+    padding: 2rem 0 1rem 4rem;
+    position: relative;
+}
+
+button{
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    padding: 0.5rem 0.8rem;
+    /* border: 1px solid black; */
+    border-radius: 1.5rem;
+}
+#share-cost{
+    width: 85%;
+}
+.tip-section{
+    display: block;
+    position: relative;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+/* mobile view */
+@media screen and (max-width:670px){
+    .app{
+        height: 80%;
+        width: 75%;
+        top: 6%;
+        left: 10%;
+    }
+    .container{
+        padding: 2rem 0 1rem 2rem;
+    }
+    #calz{
+        margin-left: 4rem;
+    }
+    .tip-section{
+        position: relative;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+}
